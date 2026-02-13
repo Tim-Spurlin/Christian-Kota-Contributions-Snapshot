@@ -26,6 +26,11 @@
   --text-dim: #aaa6cf;
   --text-bright: #ffffff;
   
+  /* Warning Colors */
+  --warning-color: #ffb84d;
+  --warning-bg: rgba(255, 165, 0, 0.15);
+  --warning-border: rgba(255, 165, 0, 0.3);
+  
   /* Glassmorphism */
   --glass: rgba(255,255,255,0.08);
   --glass-light: rgba(255,255,255,0.12);
@@ -605,12 +610,39 @@ p { color: var(--muted); }
   display: inline-block;
   margin-top: 0.8rem;
   padding: 0.4rem 0.8rem;
-  background: rgba(255, 165, 0, 0.15);
-  border: 1px solid rgba(255, 165, 0, 0.3);
+  background: var(--warning-bg);
+  border: 1px solid var(--warning-border);
   border-radius: 6px;
-  color: #ffb84d;
+  color: var(--warning-color);
   font-size: 0.85rem;
   font-weight: 600;
+}
+
+.content-block-spacing {
+  margin-top: 2rem;
+}
+
+.highlight-info {
+  margin-top: 1rem;
+  color: var(--blue-light);
+  font-weight: 500;
+}
+
+.muted-intro {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.placeholder-icon {
+  width: 64px;
+  height: 64px;
+  opacity: 0.5;
+}
+
+.placeholder-text {
+  color: var(--text-dim);
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 900px) {
