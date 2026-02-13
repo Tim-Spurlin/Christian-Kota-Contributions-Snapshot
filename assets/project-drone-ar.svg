@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Drone Wars AR gameplay interface</title><desc id="d">Augmented reality heads-up display with drone targeting effects.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#130d30"/><stop offset="1" stop-color="#223e96"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<rect x="120" y="90" width="960" height="495" rx="26" fill="rgba(0,0,0,.25)" stroke="rgba(173,232,255,.45)"/>
+<circle cx="600" cy="335" r="120" fill="none" stroke="#7de0ff" stroke-width="6"/>
+<circle cx="600" cy="335" r="38" fill="none" stroke="#ff6fb8" stroke-width="6"/>
+<path d="M600 180v65M600 425v65M445 335h65M690 335h65" stroke="#7de0ff" stroke-width="6"/>
+<path d="M300 470l130-85M900 470l-130-85" stroke="#ff6fb8" stroke-width="8" stroke-linecap="round"/>
+<text x="170" y="150" fill="#d9f1ff" font-family="Segoe UI, Arial" font-size="34">Drone Wars HUD</text>
+<text x="170" y="190" fill="#8ec7ff" font-family="Segoe UI, Arial" font-size="24">Missiles • Explosions • Tactical Overlay • Safe Zone</text>
+<text x="930" y="150" fill="#d9f1ff" font-family="Segoe UI, Arial" font-size="24">Score 1280</text>
+<text x="930" y="185" fill="#d9f1ff" font-family="Segoe UI, Arial" font-size="24">Shield 73%</text>
+</svg>

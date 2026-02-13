@@ -814,3 +814,142 @@ p { color: var(--muted); }
     animation: none;
   }
 }
+
+/* ===== Project Pages ===== */
+.project-grid-preview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-preview {
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-preview img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.project-content {
+  padding: 1rem;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.project-content h3,
+.project-content h2 {
+  margin: 0;
+}
+
+.project-list {
+  list-style: disc;
+  padding-left: 1.2rem;
+  color: var(--text-muted);
+}
+
+.project-list li {
+  margin: 0.35rem 0;
+}
+
+.project-grid-detailed {
+  margin-top: 1.4rem;
+}
+
+.project-drone-feature {
+  border-color: rgba(76, 123, 243, 0.45);
+  box-shadow: var(--shadow-glow);
+}
+
+.project-links {
+  margin-top: 1.3rem;
+}
+
+.media-uploader-card {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.upload-label {
+  width: fit-content;
+  border: 1px solid var(--border);
+  background: var(--glass);
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.upload-label:hover {
+  background: var(--glass-light);
+}
+
+.upload-input {
+  color: var(--text-muted);
+}
+
+.upload-note {
+  font-size: 0.92rem;
+}
+
+.media-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+}
+
+.media-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.media-item img,
+.media-item video {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.media-item figcaption {
+  padding: 0.55rem 0.7rem;
+  font-size: 0.84rem;
+  color: var(--text-dim);
+}
+
+@media (max-width: 900px) {
+  .project-grid-preview {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tag-chip {
+  display: inline-flex;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.08);
+  color: var(--text-bright);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.game-chip {
+  background: linear-gradient(90deg, rgba(147,51,234,0.35), rgba(76,123,243,0.24));
+  border-color: rgba(147,51,234,0.45);
+}
+
+.project-separation-card {
+  border-color: rgba(147,51,234,0.42);
+  box-shadow: 0 0 0 1px rgba(147,51,234,0.15) inset;
+}

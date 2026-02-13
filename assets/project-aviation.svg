@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Aviation software architecture illustration</title><desc id="d">A stylized jet over layered reliability modules.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#120d2f"/><stop offset="1" stop-color="#2f3d8f"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<g fill="none" stroke="rgba(196,212,255,.75)" stroke-width="4">
+<rect x="130" y="470" width="940" height="65" rx="14"/>
+<rect x="180" y="390" width="840" height="60" rx="14"/>
+<rect x="240" y="315" width="720" height="55" rx="14"/>
+</g>
+<path d="M170 250h360l160-95 60 8-90 87h220l86-55 30 17-60 72-55 10-65-35h-95l-68 62h-84l20-62H170z" fill="#a5b4fc"/>
+<circle cx="930" cy="220" r="42" fill="none" stroke="#7de0ff" stroke-width="8"/>
+<circle cx="930" cy="220" r="18" fill="#7de0ff"/>
+<text x="180" y="520" fill="#d8e1ff" font-family="Segoe UI, Arial" font-size="35">Safety Layer • Redundancy Layer • Verification Layer</text>
+</svg>

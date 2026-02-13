@@ -184,4 +184,44 @@
     const lifeStory = document.getElementById('life-story');
     if (lifeStory) lifeStory.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth' });
   }
+
+  const bindMediaPreview = (inputId, previewId) => {
+    const input = document.getElementById(inputId);
+    const preview = document.getElementById(previewId);
+    if (!input || !preview) return;
+
+    input.addEventListener('change', () => {
+      preview.innerHTML = '';
+      const files = [...(input.files || [])];
+      files.forEach((file) => {
+        const fig = document.createElement('figure');
+        fig.className = 'media-item';
+        const url = URL.createObjectURL(file);
+
+        if (file.type.startsWith('video/')) {
+          const video = document.createElement('video');
+          video.src = url;
+          video.controls = true;
+          video.preload = 'metadata';
+          fig.appendChild(video);
+        } else {
+          const img = document.createElement('img');
+          img.src = url;
+          img.alt = file.name;
+          img.loading = 'lazy';
+          fig.appendChild(img);
+        }
+
+        const cap = document.createElement('figcaption');
+        cap.textContent = file.name;
+        fig.appendChild(cap);
+        preview.appendChild(fig);
+      });
+    });
+  };
+
+  bindMediaPreview('project-media-input', 'project-media-preview');
+  bindMediaPreview('drone-image-input', 'drone-image-preview');
+  bindMediaPreview('drone-video-input', 'drone-video-preview');
+
 })();

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Technology education initiative illustration</title><desc id="d">Cards, code symbols, and students representing digital learning.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#131033"/><stop offset="1" stop-color="#315cae"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<rect x="130" y="110" width="940" height="455" rx="30" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.22)"/>
+<rect x="200" y="180" width="340" height="300" rx="20" fill="rgba(255,255,255,.12)"/>
+<text x="245" y="245" fill="#dce4ff" font-family="Consolas, monospace" font-size="44">&lt;/&gt;</text>
+<text x="245" y="315" fill="#8ac2ff" font-family="Consolas, monospace" font-size="30">print("learn")</text>
+<circle cx="760" cy="265" r="62" fill="#9eb3ff"/><circle cx="910" cy="265" r="62" fill="#7ad0ff"/>
+<rect x="700" y="338" width="120" height="130" rx="28" fill="#9eb3ff"/><rect x="850" y="338" width="120" height="130" rx="28" fill="#7ad0ff"/>
+<text x="660" y="525" fill="#e8edff" font-family="Segoe UI, Arial" font-size="34">Beginner-friendly • Practical • Confidence-building</text>
+</svg>
