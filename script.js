@@ -54,27 +54,21 @@
   });
   navLinks.forEach((link) => link.addEventListener('click', () => navList.classList.remove('open')));
 
-  const stats = document.querySelectorAll('.stat-value[data-target]');
-  const statObserver = new IntersectionObserver((entries, obs) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      const el = entry.target;
-      const target = Number(el.dataset.target);
-      const duration = 1200;
-      const start = performance.now();
-      const tick = (now) => {
-        const p = Math.min(1, (now - start) / duration);
-        el.textContent = Math.floor(target * p).toLocaleString();
-        if (p < 1) requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-      obs.unobserve(el);
-    });
-  }, { threshold: 0.5 });
-  stats.forEach((el) => statObserver.observe(el));
+  const animateValue = (el, target) => {
+    const duration = 1100;
+    const start = performance.now();
+    const tick = (now) => {
+      const p = Math.min(1, (now - start) / duration);
+      el.textContent = Math.floor(target * p).toLocaleString();
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
 
   const graph = document.querySelector('.contribution-graph');
-  if (graph) {
+  const drawFallbackGraph = () => {
+    if (!graph) return;
+    graph.innerHTML = '';
     const weeks = 52;
     const days = 7;
     const size = 12;
@@ -92,7 +86,95 @@
         graph.appendChild(rect);
       }
     }
-  }
+  };
+
+  const contributionsSection = document.querySelector('#contributions');
+  const githubUsername = contributionsSection?.dataset.githubUser;
+  const statEls = [...document.querySelectorAll('.stat-value[data-stat]')];
+  const statsNote = document.querySelector('#github-stats-note');
+
+  const drawActivityGraph = (events) => {
+    if (!graph) return;
+    graph.innerHTML = '';
+    const now = new Date();
+    const daysTotal = 364;
+    const startDate = new Date(now);
+    startDate.setDate(startDate.getDate() - daysTotal);
+    const dayCounts = new Map();
+
+    events.forEach((event) => {
+      const created = new Date(event.created_at);
+      if (created >= startDate) {
+        const key = created.toISOString().slice(0, 10);
+        const increment = event.type === 'PushEvent' ? (event.payload?.size || 1) : 1;
+        dayCounts.set(key, (dayCounts.get(key) || 0) + increment);
+      }
+    });
+
+    const values = [...dayCounts.values()];
+    const max = Math.max(1, ...values);
+    const palette = ['#1f163f', '#2d2f79', '#3559ba', '#4c7bf3', '#9333ea'];
+    const size = 12;
+    const gap = 4;
+
+    for (let offset = 0; offset < 364; offset++) {
+      const current = new Date(startDate);
+      current.setDate(startDate.getDate() + offset);
+      const dayIndex = (current.getDay() + 6) % 7;
+      const weekIndex = Math.floor(offset / 7);
+      const key = current.toISOString().slice(0, 10);
+      const count = dayCounts.get(key) || 0;
+      const intensity = count === 0 ? 0 : Math.min(4, Math.ceil((count / max) * 4));
+
+      const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      rect.setAttribute('x', String(12 + weekIndex * (size + gap)));
+      rect.setAttribute('y', String(14 + dayIndex * (size + gap)));
+      rect.setAttribute('width', String(size));
+      rect.setAttribute('height', String(size));
+      rect.setAttribute('rx', '3');
+      rect.setAttribute('fill', palette[intensity]);
+      rect.setAttribute('aria-label', `${key}: ${count} public events`);
+      graph.appendChild(rect);
+    }
+  };
+
+  const hydrateGithubStats = async () => {
+    if (!githubUsername || statEls.length === 0) {
+      drawFallbackGraph();
+      return;
+    }
+
+    const profileResp = await fetch(`https://api.github.com/users/${githubUsername}`);
+    if (!profileResp.ok) throw new Error('Unable to fetch profile stats');
+    const profile = await profileResp.json();
+
+    const mapping = {
+      public_repos: profile.public_repos,
+      followers: profile.followers,
+      following: profile.following,
+      public_gists: profile.public_gists,
+    };
+
+    statEls.forEach((el) => {
+      const value = mapping[el.dataset.stat] ?? 0;
+      animateValue(el, Number(value));
+    });
+
+    const eventsResp = await fetch(`https://api.github.com/users/${githubUsername}/events/public?per_page=100`);
+    if (eventsResp.ok) {
+      const events = await eventsResp.json();
+      drawActivityGraph(events);
+      if (statsNote) statsNote.textContent = 'Live stats from GitHub API. Activity graph shows recent public events.';
+    } else {
+      drawFallbackGraph();
+      if (statsNote) statsNote.textContent = 'Live account stats loaded. Activity graph is shown in fallback mode due to API rate limits.';
+    }
+  };
+
+  hydrateGithubStats().catch(() => {
+    drawFallbackGraph();
+    if (statsNote) statsNote.textContent = 'Unable to load GitHub live data right now. Please refresh to retry.';
+  });
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => null));
