@@ -1,0 +1,93 @@
+# Purpose: fast security patching + reduced supply-chain risk during update runs.
+# Note: Dependabot updates dependencies; it does not “detect” malicious code changes in your repo by itself.
+
+version: 2
+
+registries:
+  npmjs:
+    type: npm-registry
+    url: https://registry.npmjs.org
+    replaces-base: true
+
+updates:
+  # GitHub Actions (pin + update workflow actions)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "06:00"
+      timezone: "America/Chicago"
+    rebase-strategy: "auto"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "Tim-Spurlin"
+    assignees:
+      - "Tim-Spurlin"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "deps(actions)"
+      include: "scope"
+    # Reduce churn/risk: majors are intentional, manual review events.
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+    groups:
+      actions-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      actions-minor-patch:
+        applies-to: "version-updates"
+        update-types:
+          - "minor"
+          - "patch"
+        patterns:
+          - "*"
+
+  # Node / npm (package.json / package-lock.json / pnpm-lock.yaml / yarn.lock)
+  - package-ecosystem: "npm"
+    directory: "/"
+    registries:
+      - "npmjs"
+    schedule:
+      interval: "daily"
+      time: "06:10"
+      timezone: "America/Chicago"
+    rebase-strategy: "auto"
+    open-pull-requests-limit: 5
+    # Hardening: prevents Dependabot from executing arbitrary external code during updates.
+    insecure-external-code-execution: "deny"
+    versioning-strategy: "increase"
+    reviewers:
+      - "Tim-Spurlin"
+    assignees:
+      - "Tim-Spurlin"
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "deps(npm)"
+      include: "scope"
+    # Reduce attack surface: routine updates only for direct deps; transitive fixes still come via security updates.
+    allow:
+      - dependency-type: "direct"
+    # Reduce churn/risk: majors are intentional, manual review events.
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+    groups:
+      npm-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      npm-minor-patch:
+        applies-to: "version-updates"
+        update-types:
+          - "minor"
+          - "patch"
+        patterns:
+          - "*"
