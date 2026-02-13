@@ -225,34 +225,34 @@ body::before {
 
 @keyframes floatSphere1 {
   0%, 100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0);
   }
   33% {
-    transform: translate(30px, -40px) scale(1.1);
+    transform: translate(30px, -40px);
   }
   66% {
-    transform: translate(-20px, 30px) scale(0.95);
+    transform: translate(-20px, 30px);
   }
 }
 
 @keyframes floatSphere2 {
   0%, 100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0);
   }
   33% {
-    transform: translate(-40px, 30px) scale(1.08);
+    transform: translate(-40px, 30px);
   }
   66% {
-    transform: translate(25px, -35px) scale(0.92);
+    transform: translate(25px, -35px);
   }
 }
 
 @keyframes floatSphere3 {
   0%, 100% {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%);
   }
   50% {
-    transform: translate(-50%, -50%) scale(1.15);
+    transform: translate(-50%, -50%);
   }
 }
 
