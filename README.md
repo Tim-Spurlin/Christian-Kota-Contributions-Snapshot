@@ -10,6 +10,10 @@ Premium static portfolio designed for GitHub Pages subpath deployments.
 - `404.html`
 - `manifest.json`
 - `sw.js`
+- `favicon.svg`
+- `apple-touch-icon.png`
+- `icon-192.png`
+- `icon-512.png`
 - `assets/favicon.svg`
 - `assets/og-image.svg`
 
