@@ -44,11 +44,12 @@
 ## 🎭✨ The Complete Human: A Multi-Dimensional Journey 🌈
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#bb86fc', 'primaryTextColor':'#ffffff', 'primaryBorderColor':'#7c4dff', 'lineColor':'#f5a623', 'secondaryColor':'#03dac6', 'tertiaryColor':'#cf6679', 'fontSize':'16px'}}}%%
 mindmap
   root((Timothy<br/>Christian<br/>Spurlin))
     🔬 Scientist
-      PhD Computer Science
-      Data Science Expert
+      Natural Medicine Expert
+      Data Scientist
       Aviation Software
       Heart Monitor IoT
     🛠️ Craftsman
