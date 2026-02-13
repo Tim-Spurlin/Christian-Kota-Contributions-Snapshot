@@ -221,7 +221,5 @@
   };
 
   bindMediaPreview('project-media-input', 'project-media-preview');
-  bindMediaPreview('drone-image-input', 'drone-image-preview');
-  bindMediaPreview('drone-video-input', 'drone-video-preview');
 
 })();
