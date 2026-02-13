@@ -115,4 +115,54 @@
       document.getElementById(targetTab)?.classList.add('active');
     });
   });
+
+  const timelineItems = [...document.querySelectorAll('.timeline-item')];
+  const timelineButtons = [...document.querySelectorAll('.timeline-header')];
+  const chapterChips = [...document.querySelectorAll('.chapter-chip')];
+
+  function closeTimelineItem(item) {
+    const btn = item.querySelector('.timeline-header');
+    const content = item.querySelector('.timeline-content');
+    btn?.setAttribute('aria-expanded', 'false');
+    item.classList.remove('active');
+    if (content) content.hidden = true;
+  }
+
+  function openTimelineItem(item) {
+    const btn = item.querySelector('.timeline-header');
+    const content = item.querySelector('.timeline-content');
+    btn?.setAttribute('aria-expanded', 'true');
+    item.classList.add('active');
+    if (content) content.hidden = false;
+  }
+
+  timelineButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.timeline-item');
+      if (!item) return;
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+      timelineItems.forEach(closeTimelineItem);
+      if (!isOpen) openTimelineItem(item);
+    });
+  });
+
+  chapterChips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const chapter = chip.dataset.chapter;
+      chapterChips.forEach((c) => c.classList.remove('active'));
+      chip.classList.add('active');
+
+      timelineItems.forEach((item) => {
+        const isVisible = chapter === 'all' || item.dataset.chapter === chapter;
+        item.classList.toggle('is-hidden', !isVisible);
+        if (!isVisible) closeTimelineItem(item);
+      });
+
+      const firstVisible = timelineItems.find((item) => !item.classList.contains('is-hidden'));
+      if (firstVisible) openTimelineItem(firstVisible);
+    });
+  });
+
+  if (timelineItems.length) openTimelineItem(timelineItems[0]);
+
 })();
