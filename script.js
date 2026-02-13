@@ -179,6 +179,34 @@
     });
   });
 
+
+
+  // AR TelePrompt tab groups
+  const arTabGroups = [...document.querySelectorAll('[data-tab-group]')];
+  arTabGroups.forEach((group) => {
+    const buttons = [...group.querySelectorAll('.ar-tab-btn')];
+    const panels = [...group.querySelectorAll('.ar-tab-panel')];
+
+    const activateArTab = (tabId) => {
+      const targetBtn = buttons.find((btn) => btn.dataset.arTab === tabId);
+      const targetPanel = panels.find((panel) => panel.id === tabId);
+      if (!targetBtn || !targetPanel) return;
+
+      buttons.forEach((btn) => {
+        const active = btn === targetBtn;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', String(active));
+      });
+
+      panels.forEach((panel) => {
+        panel.classList.toggle('active', panel === targetPanel);
+      });
+    };
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => activateArTab(btn.dataset.arTab));
+    });
+  });
   if (window.location.hash === '#side-story-tab') {
     activateTab('sidestory');
     const lifeStory = document.getElementById('life-story');
