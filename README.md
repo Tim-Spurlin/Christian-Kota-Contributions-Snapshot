@@ -5,8 +5,7 @@
 ### *🎨 Renaissance Polymath | 💻 Computer Scientist | 🎵 Musician | 🔧 Craftsman | 🌍 Community Leader*
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live_Site-blueviolet?style=for-the-badge&logo=github&logoColor=white)](https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/)
-[![Natural Medicine](https://img.shields.io/badge/🌿_Natural_Medicine-Lifelong_Study-2ecc71?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
-[![Pharmacology](https://img.shields.io/badge/💊_Pharmacology-Self_Taught-3498db?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
+[![Music](https://img.shields.io/badge/🎵_Music-Christian_Kota-ff69b4?style=for-the-badge&logo=spotify&logoColor=white)](https://app.chartmetric.com/artist/10113279)
 
 [![Computer Science](https://img.shields.io/badge/💻_Computer_Science-Advanced_Study-9b59b6?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
 [![Welding](https://img.shields.io/badge/🔥_Master_Welder-Certified-e74c3c?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
@@ -581,6 +580,7 @@ Skills      /  ★  \    Impact
 
 ### Creative Platforms
 
+[![Music](https://img.shields.io/badge/Christian_Kota-Listen-ff69b4?style=for-the-badge&logo=spotify)](https://app.chartmetric.com/artist/10113279)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube)](https://youtube.com/@christiankota)
 
 ### Support the Mission
@@ -591,6 +591,17 @@ Skills      /  ★  \    Impact
 </div>
 
 ---
+
+## 📚✨ Research & References 🔬📖
+
+The comprehensive analysis in this portfolio is supported by:
+
+- [Chartmetric Artist Page](https://app.chartmetric.com/artist/10113279)
+- [Post-Traumatic Growth Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC6169872/)
+- [Hidden Talents from Adversity Study](https://www.cambridge.org/core/journals/development-and-psychopathology)
+- [Clean Air Action Plan Advocacy](https://cleanairactionplan.org/)
+
+For full academic references, see [index.md](./index.md) - comprehensive research analysis
 
 ---
 
