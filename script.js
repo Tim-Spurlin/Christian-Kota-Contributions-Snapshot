@@ -97,4 +97,35 @@
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => null));
   }
+
+  // Timeline accordion functionality
+  const timelineHeaders = document.querySelectorAll('.timeline-header');
+  timelineHeaders.forEach((header) => {
+    header.addEventListener('click', () => {
+      const expanded = header.getAttribute('aria-expanded') === 'true';
+      const contentId = header.getAttribute('aria-controls');
+      const content = document.getElementById(contentId);
+      
+      if (!content) return;
+      
+      // Toggle expanded state
+      header.setAttribute('aria-expanded', String(!expanded));
+      
+      if (expanded) {
+        // Collapse
+        content.hidden = true;
+      } else {
+        // Expand
+        content.hidden = false;
+      }
+    });
+
+    // Keyboard support for accessibility
+    header.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        header.click();
+      }
+    });
+  });
 })();
