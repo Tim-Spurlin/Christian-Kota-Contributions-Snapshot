@@ -20,6 +20,27 @@
 
 </div>
 
+
+## 🛰️ New GitHub Pages Project Experience
+
+The GitHub Pages site now includes a dedicated **Projects hub** and a full **Smart Drone Deep-Dive** page:
+
+- **`./projects.html`** — an extensively detailed portfolio view with visual cards for each major project.
+- **`./smart-drone.html`** — a comprehensive concept exploration covering:
+  - Clearly separated operational profiles (assistant utility vs entertainment)
+  - Pi brain processing architecture and edge mission control
+  - AI intelligence, multilingual interaction, and planning behavior
+  - Drone mathematics and control systems for stable precision flight
+  - **Drone Wars** AR gameplay explicitly labeled as a game mode (virtual missiles/explosions effects)
+  - Safety engineering with protective spherical frame, propeller layout, and obstacle detection
+  - Dedicated media upload preview sections for drone images/videos documentation
+
+### Quick Links
+- 🌐 Projects Hub: `https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/projects.html`
+- 🚁 Smart Drone Deep-Dive: `https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/smart-drone.html`
+
+---
+
 ## 📊✨ Quick Stats & Achievements ✨
 
 <div align="center">
