@@ -6,7 +6,8 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-blueviolet?style=for-the-badge&logo=github)](https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/)
 [![Music](https://img.shields.io/badge/Music-Christian_Kota-ff69b4?style=for-the-badge&logo=spotify)](https://app.chartmetric.com/artist/10113279)
-[![PhD Student](https://img.shields.io/badge/Status-PhD_Student-success?style=for-the-badge&logo=academia)](https://www.lemon8-app.com/@rickthefactor/7417945451267228166)
+[![Natural Medicine](https://img.shields.io/badge/🌿_Natural_Medicine-Lifelong_Study-success?style=for-the-badge)](https://www.lemon8-app.com/@rickthefactor/7417945451267228166)
+[![Pharmacology](https://img.shields.io/badge/💊_Pharmacology-Self_Taught-informational?style=for-the-badge)](https://www.lemon8-app.com/@rickthefactor/7417945451267228166)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Tim-Spurlin&color=blueviolet&style=for-the-badge)
 
@@ -39,10 +40,12 @@
 mindmap
   root((Timothy<br/>Christian<br/>Spurlin))
     🔬 Scientist
-      PhD Computer Science
+      Computer Science
       Data Science Expert
       Aviation Software
       Heart Monitor IoT
+      Natural Medicine
+      Pharmacology
     🛠️ Craftsman
       Master Welder
       Certified Electrician
@@ -181,11 +184,11 @@ THEREFORE safety > speed
 - ✅ Rigorous verification protocols
 - ✅ Documentation as life-saving tool
 
-**Career Impact:** This experience directly motivated PhD pursuit in Computer Science to master theoretical foundations of reliable systems.
+**Career Impact:** This experience inspired deeper study of Computer Science theoretical foundations of reliable systems through independent research and practice.
 
 </details>
 
-### 🎓 PhD in Computer Science (In Progress - Spring 2020)
+### 🎓 Lifelong Learning & Self-Directed Study (Ongoing Since 2015)
 
 ```mermaid
 gantt
@@ -193,7 +196,8 @@ gantt
     dateFormat YYYY
     section Education
     Computer Science Studies   :2015, 2020
-    PhD Computer Science       :2020, 2027
+    Advanced Independent Study :2020, 2027
+    Natural Medicine & Pharmacology :2010, 2027
     section Industry
     Aviation Software Intern   :2018, 2020
     Open Source Contributions  :2019, 2027
@@ -205,9 +209,9 @@ gantt
     Album Releases            :2020, 2027
 ```
 
-**Research Focus:** Intersection of human-computer interaction, IoT healthcare, and systems reliability
+**Research Focus:** Intersection of human-computer interaction, IoT healthcare, systems reliability, natural medicine, and pharmacology
 
-**Academic Philosophy:** *"Theory without practice is blind; practice without theory is lame"* - Bringing real-world expertise into academic research
+**Learning Philosophy:** *"Theory without practice is blind; practice without theory is lame"* - Bringing real-world expertise into self-directed research and lifelong learning across health sciences, technology, and holistic wellness
 
 ---
 
@@ -411,8 +415,8 @@ timeline
          : High-reliability systems exposure
     2019 : Open Source Contributions Begin
          : GitHub presence established
-    2020 : PhD in Computer Science Begins
-         : Advanced research initiated
+    2020 : Advanced Independent Study Begins
+         : Deep dive into CS theory & health sciences
     2021 : Heart Monitoring Clock Project
          : IoT healthcare innovation
     2022 : 1000+ Students Taught
@@ -607,7 +611,7 @@ For full academic references, see [index.md](./index.md) - comprehensive researc
 
 ### 2026 Objectives
 
-**Academic:** Complete PhD Dissertation - Advancing IoT healthcare systems research
+**Academic:** Advance IoT Healthcare Research - Integrating natural medicine with technology
 
 **Music:** Release Album - 12-track collection exploring inner child themes
 
