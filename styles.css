@@ -714,6 +714,34 @@ p { color: var(--muted); }
   max-width: 72ch;
 }
 
+.side-story-status {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.8rem;
+  margin: 0 0 1.15rem;
+}
+
+.status-chip {
+  padding: 0.8rem 0.95rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: linear-gradient(145deg, rgba(147, 51, 234, 0.15), rgba(76, 123, 243, 0.1));
+  display: grid;
+  gap: 0.2rem;
+}
+
+.status-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--text-dim);
+}
+
+.status-chip strong {
+  font-size: 0.95rem;
+  color: var(--text-bright);
+}
+
 .memory-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
