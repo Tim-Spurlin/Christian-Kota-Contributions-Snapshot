@@ -42,7 +42,7 @@
 ## 🎭✨ The Complete Human: A Multi-Dimensional Journey 🌈
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#bb86fc', 'primaryTextColor':'#ffffff', 'primaryBorderColor':'#7c4dff', 'lineColor':'#f5a623', 'secondaryColor':'#03dac6', 'tertiaryColor':'#cf6679', 'fontSize':'16px'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 mindmap
   root((Timothy<br/>Christian<br/>Spurlin))
     🔬 Scientist
@@ -79,6 +79,7 @@ mindmap
 ### 🌟 Programming Languages & Frameworks
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 graph LR
     A[Timothy's Tech Stack] --> B[🐍 Python]
     A --> C[☕ Java]
@@ -104,12 +105,12 @@ graph LR
     F --> F1[REST APIs]
     F --> F2[Microservices]
     
-    style A fill:#9370DB,stroke:#fff,stroke-width:3px,color:#fff
-    style B fill:#3776AB,stroke:#fff,color:#fff
-    style C fill:#007396,stroke:#fff,color:#fff
-    style D fill:#F7DF1E,stroke:#333,color:#333
-    style E fill:#61DAFB,stroke:#333,color:#333
-    style F fill:#339933,stroke:#fff,color:#fff
+    style A fill:#3b2f63,stroke:#9aa4ff,stroke-width:3px,color:#f5f7ff
+    style B fill:#1f4f78,stroke:#9aa4ff,color:#f5f7ff
+    style C fill:#0b4760,stroke:#9aa4ff,color:#f5f7ff
+    style D fill:#6a5f1d,stroke:#d8dcff,color:#f5f7ff
+    style E fill:#1f5a70,stroke:#d8dcff,color:#f5f7ff
+    style F fill:#1f5a35,stroke:#9aa4ff,color:#f5f7ff
 ```
 
 ### 📊 Skill Proficiency Matrix 🎯
@@ -138,6 +139,7 @@ graph LR
 
 **Technical Innovation:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 graph TD
     A[⏰ Clock Display] --> B[💓 Biometric Sensors]
     B --> C[🔌 Electrical Integration]
@@ -151,9 +153,9 @@ graph TD
     D -.->|Python/Data Science| J[HRV Analysis]
     E -.->|JavaScript| K[Real-time Graphs]
     
-    style A fill:#FFD700,stroke:#333,stroke-width:2px
-    style G fill:#FF6B6B,stroke:#333,stroke-width:2px
-    style J fill:#4ECDC4,stroke:#333,stroke-width:2px
+    style A fill:#6b5a1e,stroke:#d8dcff,stroke-width:2px,color:#f5f7ff
+    style G fill:#7b2f47,stroke:#d8dcff,stroke-width:2px,color:#f5f7ff
+    style J fill:#1f5f66,stroke:#d8dcff,stroke-width:2px,color:#f5f7ff
 ```
 
 **Impact:** Preventative health monitoring for underserved communities who can't afford expensive wearables.
@@ -195,6 +197,7 @@ THEREFORE safety > speed
 ### 🎓 Lifelong Learning & Self-Directed Study (Ongoing Since 2015)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 gantt
     title Timothy's Academic & Professional Timeline
     dateFormat YYYY
@@ -233,6 +236,7 @@ gantt
 ### 🎼 Genre Mastery & Musical Range
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 pie title Musical Genre Distribution
     "Indie Pop" : 30
     "Pop Rock" : 25
@@ -252,6 +256,7 @@ pie title Musical Genre Distribution
 Timothy's unique approach combines engineering rigor with artistic creativity:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 graph LR
     A[1️⃣ Define Theme] -->|Research Question| B[2️⃣ Write Daily]
     B -->|Data Collection| C[3️⃣ Study Hit Songs]
@@ -259,10 +264,10 @@ graph LR
     D -->|Peer Review| E[5️⃣ Authenticity Check]
     E -->|Validity Test| F[✨ Released Song]
     
-    style A fill:#FF6B9D,stroke:#fff,color:#fff
-    style C fill:#C44569,stroke:#fff,color:#fff
-    style E fill:#FFA07A,stroke:#fff,color:#fff
-    style F fill:#FFD700,stroke:#333,color:#333
+    style A fill:#6c2e4b,stroke:#9aa4ff,color:#f5f7ff
+    style C fill:#5d2743,stroke:#9aa4ff,color:#f5f7ff
+    style E fill:#7a4a32,stroke:#9aa4ff,color:#f5f7ff
+    style F fill:#6b5a1e,stroke:#d8dcff,color:#f5f7ff
 ```
 
 **Philosophy:** *"Treat creativity like experiments - gather data (write daily), analyze patterns (study hits), validate results (authenticity), and publish findings (release music)"*
@@ -309,6 +314,7 @@ graph LR
 ### 🏗️ Impact: Full-Stack Humanity
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 graph TB
     A[Problem Identified] --> B{Digital Solution?}
     B -->|Yes| C[Code the Software]
@@ -326,9 +332,9 @@ graph TB
     
     J --> K[Community Thrives]
     
-    style A fill:#FF6B6B,stroke:#fff,color:#fff
-    style J fill:#4ECDC4,stroke:#fff,color:#fff
-    style K fill:#95E1D3,stroke:#333,color:#333
+    style A fill:#6a2e46,stroke:#9aa4ff,color:#f5f7ff
+    style J fill:#1f5f66,stroke:#9aa4ff,color:#f5f7ff
+    style K fill:#2b6c68,stroke:#d8dcff,color:#f5f7ff
 ```
 
 ---
@@ -349,14 +355,15 @@ graph TB
 
 **Student Impact:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 graph LR
     A[No Tech Background] -->|Free Education| B[Coding Literacy]
     B -->|Portfolio Projects| C[Job-Ready Skills]
     C -->|Career Launch| D[Middle-Class Income]
     D -->|Economic Mobility| E[Generational Change]
     
-    style A fill:#FF6B6B,stroke:#fff,color:#fff
-    style E fill:#95E1D3,stroke:#333,color:#333
+    style A fill:#6a2e46,stroke:#9aa4ff,color:#f5f7ff
+    style E fill:#2b6c68,stroke:#d8dcff,color:#f5f7ff
 ```
 
 ### 🌱 Environmental & Health Advocacy
@@ -370,6 +377,7 @@ graph LR
 ### 💚 Psychological & Community Healing
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 mindmap
   root((Community<br/>Healing))
     🎵 Through Music
@@ -402,6 +410,7 @@ mindmap
 ## 🏆✨ Achievement Timeline & Milestones 📅🎯
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 timeline
     title Life & Career Milestones
     2013 : Welding Certification Earned
@@ -622,6 +631,7 @@ For full academic references, see [index.md](./index.md) - comprehensive researc
 ### Vision for 2030
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
 graph TB
     A[2030 Vision] --> B[Universal Tech Literacy]
     A --> C[Healthcare IoT Revolution]
@@ -633,15 +643,15 @@ graph TB
     D --> H[Music as mental healthcare]
     E --> I[Maker culture mainstream]
     
-    style A fill:#FFD700,stroke:#333,stroke-width:3px,color:#000
-    style B fill:#4c7bf3,stroke:#333,color:#fff
-    style C fill:#4c7bf3,stroke:#333,color:#fff
-    style D fill:#4c7bf3,stroke:#333,color:#fff
-    style E fill:#4c7bf3,stroke:#333,color:#fff
-    style F fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
-    style G fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
-    style H fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
-    style I fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
+    style A fill:#6b5a1e,stroke:#d8dcff,stroke-width:3px,color:#f5f7ff
+    style B fill:#2a3f78,stroke:#9aa4ff,color:#f5f7ff
+    style C fill:#2a3f78,stroke:#9aa4ff,color:#f5f7ff
+    style D fill:#2a3f78,stroke:#9aa4ff,color:#f5f7ff
+    style E fill:#2a3f78,stroke:#9aa4ff,color:#f5f7ff
+    style F fill:#241b4a,stroke:#7a86ff,stroke-width:2px,color:#f5f7ff
+    style G fill:#241b4a,stroke:#7a86ff,stroke-width:2px,color:#f5f7ff
+    style H fill:#241b4a,stroke:#7a86ff,stroke-width:2px,color:#f5f7ff
+    style I fill:#241b4a,stroke:#7a86ff,stroke-width:2px,color:#f5f7ff
 ```
 
 ---
