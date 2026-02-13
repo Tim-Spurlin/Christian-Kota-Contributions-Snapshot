@@ -577,6 +577,7 @@ Skills      /  ★  \    Impact
 
 ### Professional Platforms
 
+[![Linktree](https://img.shields.io/badge/Linktree-All_Links-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/christiankota)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Tim-Spurlin)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/timothy-spurlin)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blueviolet?style=for-the-badge&logo=github)](https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/)
