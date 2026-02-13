@@ -247,12 +247,9 @@ pie title Musical Genre Distribution
 
 ### 🌟 Notable Releases
 
-| 🎵 Track | 🎭 Genre | 💫 Highlights | 🔗 Links |
-|---------|---------|--------------|---------|
-| **Beautiful Things** | Heartfelt Pop | Catchy melodies + powerful lyrics | [Listen](https://www.lemon8-app.com/@ilovemooney3/7459806033993630250) |
-| **Let It Ride** | Country/Pop | 3-day lyrical masterpiece | [Stream](https://www.lemon8-app.com/@yun13729fn9/7477533004986958378) |
-| **Lose Control** | Dark Pop | Emotional turbulence exploration | [Reddit](https://www.reddit.com/r/soundcloud/comments/1d9jm3p/dark_pop_christian_kota_lose_control/) |
-| **Moonlight** | R&B Cover | Vocal dexterity showcase | [Reddit](https://www.reddit.com/r/IndieMusicFeedback/comments/1d854gb/moonlight_cover_by_christian_kota/) |
+- **[Reloj en Pausa](https://open.spotify.com/track/7esm9pLkJ4NlC8szLh2R8T?si=3f08c0a6171a479b)** - A mesmerizing track exploring themes of time and reflection
+- **[Made It Down to Texas](https://open.spotify.com/track/76AlOyLBGVnAA98ZQw2Ro6?si=6dc9b975cde44af2)** - Country-infused storytelling journey
+- **[Warm Heart](https://open.spotify.com/track/2TEH4GABggTBIsgzhgBNky?si=d40fa0b94ccc46c2)** - Soulful expression of emotional warmth
 
 ### 🎯 The Scientific Method Applied to Songwriting
 
