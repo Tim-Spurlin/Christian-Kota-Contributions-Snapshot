@@ -638,11 +638,15 @@ graph TB
     D --> H[Music as mental healthcare]
     E --> I[Maker culture mainstream]
     
-    style A fill:#FFD700,stroke:#333,stroke-width:3px
-    style F fill:#95E1D3,stroke:#333
-    style G fill:#95E1D3,stroke:#333
-    style H fill:#95E1D3,stroke:#333
-    style I fill:#95E1D3,stroke:#333
+    style A fill:#FFD700,stroke:#333,stroke-width:3px,color:#000
+    style B fill:#4c7bf3,stroke:#333,color:#fff
+    style C fill:#4c7bf3,stroke:#333,color:#fff
+    style D fill:#4c7bf3,stroke:#333,color:#fff
+    style E fill:#4c7bf3,stroke:#333,color:#fff
+    style F fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
+    style G fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
+    style H fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
+    style I fill:#2d1b69,stroke:#4c7bf3,stroke-width:2px,color:#fff
 ```
 
 ---
