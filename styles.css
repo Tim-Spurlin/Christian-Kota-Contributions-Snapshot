@@ -362,6 +362,11 @@ h1 { font-size: clamp(2rem, 4vw, 3.6rem); margin:.2rem 0 1rem; }
 .hero-card { padding: 1rem; overflow:auto; }
 pre { margin:0; color:#d1d5ff; }
 .hero-cta { display:flex; gap:.8rem; margin-top:1rem; flex-wrap:wrap; }
+
+.side-story-cta {
+  justify-content: center;
+}
+
 .btn { text-decoration:none; padding:.65rem 1rem; border-radius: 999px; font-weight: 600; }
 .btn.primary { background: linear-gradient(90deg, #9333ea, var(--blue)); color:#fff; }
 .btn.ghost { border:1px solid var(--border); color:#fff; }
@@ -643,6 +648,58 @@ p { color: var(--muted); }
   color: var(--text-dim);
   margin-top: 1rem;
   font-size: 0.9rem;
+}
+
+
+.tab-btn-dark {
+  background: linear-gradient(180deg, rgba(147, 51, 234, 0.16), rgba(27, 16, 56, 0.4));
+  color: #d8c8ff;
+}
+
+.tab-intro-left {
+  text-align: left;
+  margin: 0 0 1.25rem;
+  max-width: 72ch;
+}
+
+.memory-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.memory-frame {
+  background: linear-gradient(160deg, rgba(147,51,234,.1), rgba(76,123,243,.08));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.memory-frame:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-glow);
+}
+
+.memory-art {
+  aspect-ratio: 16 / 10;
+  border-bottom: 1px solid var(--border);
+}
+
+.memory-frame figcaption {
+  padding: 1rem;
+}
+
+.memory-frame h5 {
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+  color: var(--text-bright);
+}
+
+.memory-frame p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
 }
 
 @media (max-width: 900px) {

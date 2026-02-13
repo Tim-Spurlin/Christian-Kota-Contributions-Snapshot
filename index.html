@@ -70,13 +70,14 @@
       <h2>The Polymathic Convergence</h2>
       <p class="section-intro">A comprehensive exploration of my integrated journey across science, industry, art, and community service. Navigate through each dimension of a life dedicated to building, creating, and serving.</p>
       
-      <div class="tab-navigation">
-        <button class="tab-btn active" data-tab="overview">Overview</button>
-        <button class="tab-btn" data-tab="technologist">Technologist</button>
-        <button class="tab-btn" data-tab="craftsman">Craftsman</button>
-        <button class="tab-btn" data-tab="artist">Artist</button>
-        <button class="tab-btn" data-tab="philosopher">Philosopher</button>
-        <button class="tab-btn" data-tab="community">Community</button>
+      <div class="tab-navigation" role="tablist" aria-label="Life story chapters">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true" aria-controls="overview">Overview</button>
+        <button class="tab-btn" data-tab="technologist" role="tab" aria-selected="false" aria-controls="technologist">Technologist</button>
+        <button class="tab-btn" data-tab="craftsman" role="tab" aria-selected="false" aria-controls="craftsman">Craftsman</button>
+        <button class="tab-btn" data-tab="artist" role="tab" aria-selected="false" aria-controls="artist">Artist</button>
+        <button class="tab-btn" data-tab="philosopher" role="tab" aria-selected="false" aria-controls="philosopher">Philosopher</button>
+        <button class="tab-btn" data-tab="community" role="tab" aria-selected="false" aria-controls="community">Community</button>
+        <button class="tab-btn tab-btn-dark" data-tab="sidestory" role="tab" aria-selected="false" aria-controls="sidestory">Side Story</button>
       </div>
 
       <div class="tab-content-container">
@@ -319,6 +320,136 @@
             <p class="highlight-text">My diverse skill set isn't random—it's a toolkit for comprehensive community service. I create music to heal emotional wounds, teach skills to heal economic wounds, and petition governments to heal environmental wounds.</p>
           </div>
         </div>
+
+        <div class="tab-content" id="sidestory">
+          <h3>Side Story: Darker Chapters of My Life</h3>
+          <p class="section-intro tab-intro-left">This chapter holds the heavier memories—the moments that left scars and taught me survival. I am documenting them with AI-generated videos and visual scenes so visitors can understand the internal landscape behind my resilience.</p>
+
+          <div class="cards two">
+            <article class="card highlight">
+              <h4>🎥 Memory-to-Video Process</h4>
+              <p>I translate difficult memories into narrative prompts, then iterate with AI tools to recreate the emotion, setting, and symbolism of each moment. Every scene is part testimony, part art, and part healing record.</p>
+            </article>
+            <article class="card highlight">
+              <h4>🫱🏽‍🫲🏾 Content Care</h4>
+              <p>These stories can be intense. I include context and content warnings so people can choose when and how to engage. The goal is honesty without harm.</p>
+            </article>
+          </div>
+
+          <div class="content-block">
+            <h4>AI Video Vault</h4>
+            <p class="muted-intro">A curated library of darker life chapters recreated through AI. Replace each embed URL with your latest generated video links as your archive grows.</p>
+            <div class="video-gallery" role="region" aria-label="AI generated trauma story videos">
+              <article class="video-item">
+                <iframe class="video-embed" src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Side story memory film one" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                  <h4>Chapter 01 — Fracture</h4>
+                  <p>A reconstruction of the first memory where fear became a permanent language in my nervous system. The visual style is intentionally fragmented to mirror recall under stress.</p>
+                  <span class="content-warning">Content Warning: emotional distress, trauma themes</span>
+                </div>
+              </article>
+
+              <article class="video-item">
+                <iframe class="video-embed" src="https://www.youtube.com/embed/5qap5aO4i9A" title="Side story memory film two" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-info">
+                  <h4>Chapter 02 — Aftershock</h4>
+                  <p>An AI-generated sequence about the years after the event—how hypervigilance, isolation, and rebuilding happened at the same time. This piece captures survival in slow motion.</p>
+                  <span class="content-warning">Content Warning: trauma recovery journey</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="content-block">
+            <h4>Memory Gallery (AI Stills)</h4>
+            <p class="muted-intro">A visual archive of still images generated from detailed recollections. These are not literal photos—these are emotional snapshots.</p>
+            <div class="memory-gallery" role="list" aria-label="AI memory stills">
+              <figure class="memory-frame" role="listitem">
+                <div class="memory-art" aria-hidden="true">
+                  <svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Storm corridor abstract memory">
+                    <defs>
+                      <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                        <stop offset="0%" stop-color="#2b1a58"/>
+                        <stop offset="100%" stop-color="#0d0a1f"/>
+                      </linearGradient>
+                    </defs>
+                    <rect width="400" height="280" fill="url(#g1)"/>
+                    <path d="M0 185 C80 160 150 230 230 205 C295 186 345 145 400 160 L400 280 L0 280 Z" fill="#3f2c83" opacity="0.6"/>
+                    <circle cx="302" cy="82" r="42" fill="#5b8dff" opacity="0.2"/>
+                    <path d="M102 68 L150 112 L118 148 L76 103 Z" fill="#c4d4ff" opacity="0.15"/>
+                  </svg>
+                </div>
+                <figcaption>
+                  <h5>Storm Corridor</h5>
+                  <p>A recurring hallway memory where everything felt cold, distorted, and endless.</p>
+                </figcaption>
+              </figure>
+
+              <figure class="memory-frame" role="listitem">
+                <div class="memory-art" aria-hidden="true">
+                  <svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shattered dusk abstract memory">
+                    <defs>
+                      <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+                        <stop offset="0%" stop-color="#4c2a9d"/>
+                        <stop offset="100%" stop-color="#121028"/>
+                      </linearGradient>
+                    </defs>
+                    <rect width="400" height="280" fill="url(#g2)"/>
+                    <path d="M20 36 L118 24 L88 130 L22 110 Z" fill="#b9c8ff" opacity="0.2"/>
+                    <path d="M210 42 L325 52 L286 176 L192 152 Z" fill="#ffd2e4" opacity="0.15"/>
+                    <rect x="0" y="208" width="400" height="72" fill="#0a0618" opacity="0.45"/>
+                  </svg>
+                </div>
+                <figcaption>
+                  <h5>Shattered Dusk</h5>
+                  <p>An impression of the evening everything changed and trust felt impossible.</p>
+                </figcaption>
+              </figure>
+
+              <figure class="memory-frame" role="listitem">
+                <div class="memory-art" aria-hidden="true">
+                  <svg viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Return to light abstract memory">
+                    <defs>
+                      <linearGradient id="g3" x1="0" x2="1" y1="1" y2="0">
+                        <stop offset="0%" stop-color="#101737"/>
+                        <stop offset="100%" stop-color="#3559ba"/>
+                      </linearGradient>
+                    </defs>
+                    <rect width="400" height="280" fill="url(#g3)"/>
+                    <circle cx="110" cy="95" r="55" fill="#f7f7ff" opacity="0.16"/>
+                    <path d="M0 230 C90 220 160 168 250 176 C325 182 357 213 400 206 L400 280 L0 280 Z" fill="#5d38a6" opacity="0.55"/>
+                    <path d="M225 78 L247 122 L197 120 Z" fill="#ffd2e4" opacity="0.22"/>
+                  </svg>
+                </div>
+                <figcaption>
+                  <h5>Return to Light</h5>
+                  <p>A visual note that healing is nonlinear but real; darkness did not get the final word.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="side-story" class="section reveal">
+      <h2>Side Story Portal</h2>
+      <p class="section-intro">This is the entry point to the darker chapters of my life. For the full archive of AI-generated trauma narratives, videos, and memory visuals, open the dedicated Side Story tab in Life Story.</p>
+      <div class="cards two">
+        <article class="card highlight">
+          <h3>Dark Chapters Archive</h3>
+          <p>A structured body of visual stories built from difficult memories and presented with context, care, and content warnings.</p>
+        </article>
+        <article class="card highlight">
+          <h3>AI Memory Lab</h3>
+          <p>Experimental video and image reconstructions where memory, emotion, and technology are combined to process trauma through storytelling.</p>
+        </article>
+      </div>
+      <div class="hero-cta side-story-cta">
+        <a class="btn primary" href="#life-story" data-open-tab="sidestory">Open Side Story Tab</a>
+        <a class="btn ghost" href="#contact">Share Support</a>
       </div>
     </section>
 
@@ -501,50 +632,6 @@
         <div class="skill"><span>Electrical Systems</span><div class="meter"><i style="--w:87%"></i></div></div>
         <div class="skill"><span>Psychology & Trauma Recovery</span><div class="meter"><i style="--w:90%"></i></div></div>
         <div class="skill"><span>Community Education</span><div class="meter"><i style="--w:93%"></i></div></div>
-      </div>
-    </section>
-
-    <section id="side-story" class="section reveal">
-      <h2>Side Story: A Peek Into My Mind</h2>
-      <p class="section-intro">Welcome to the raw and unfiltered side of my journey. Through AI-generated videos, I've transformed my traumatic experiences into shareable narratives—offering a unique window into my memories, struggles, and growth. These videos represent my attempt to process and share the difficult moments that have shaped who I am today.</p>
-      
-      <div class="cards two">
-        <article class="card highlight">
-          <h4>🎬 Why AI-Generated Videos?</h4>
-          <p>By describing my memories to AI, I can visualize experiences in a way that feels both authentic and safe. This technology allows me to share deeply personal moments while maintaining creative control over how they're presented. Each video is a window into my mind—a translation of memory into visual narrative.</p>
-        </article>
-        <article class="card highlight">
-          <h4>💭 The Healing Journey</h4>
-          <p>Sharing trauma isn't just about transparency—it's about transformation. These stories represent my path from victim to survivor to thriver. Through this medium, I hope to connect with others who've faced similar challenges and demonstrate that our past doesn't define our future.</p>
-        </article>
-      </div>
-
-      <div class="content-block content-block-spacing">
-        <h3>My Stories</h3>
-        <p class="muted-intro">Each video below represents a significant experience that has shaped my perspective, resilience, and understanding of the human condition. Content warning: These videos may contain references to trauma, difficult experiences, and emotional content.</p>
-        
-        <div class="video-gallery" role="region" aria-label="Video collection of personal stories">
-          <!-- Video items will be added here -->
-          <div class="video-item">
-            <div class="video-placeholder" role="img" aria-label="Placeholder for upcoming video content">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="placeholder-icon" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-                <path d="M10 8L16 12L10 16V8Z" fill="currentColor"/>
-              </svg>
-              <p class="placeholder-text">Videos coming soon...</p>
-            </div>
-            <div class="video-info">
-              <h4>Placeholder for Future Content</h4>
-              <p>AI-generated videos will be added here as they are created and processed. Each video will include a title, description, and content warnings where appropriate.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="content-block content-block-spacing">
-        <h3>About This Project</h3>
-        <p>This section is an ongoing project—a living archive of experiences translated through AI technology. As I create new videos and process more memories, this collection will grow. My goal is to demonstrate vulnerability, foster connection, and show that sharing our stories can be a powerful tool for healing.</p>
-        <p class="highlight-info">If you've been impacted by trauma or are interested in discussing these topics further, feel free to reach out through my contact page.</p>
       </div>
     </section>
 
