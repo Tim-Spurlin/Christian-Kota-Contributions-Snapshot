@@ -38,11 +38,11 @@
 ```mermaid
 mindmap
   root((Timothy<br/>Christian<br/>Spurlin))
-    🔬 Scientist
-      PhD Computer Science
-      Data Science Expert
-      Aviation Software
-      Heart Monitor IoT
+    🔬 Scientist:::lightNode
+      PhD Computer Science:::lightNode
+      Data Science Expert:::lightNode
+      Aviation Software:::lightNode
+      Heart Monitor IoT:::lightNode
     🛠️ Craftsman
       Master Welder
       Certified Electrician
@@ -63,6 +63,8 @@ mindmap
       Environmental Advocate
       Open Source Contributor
       Civic Activist
+  
+  classDef lightNode fill:#b9c8ff,stroke:#fff,stroke-width:2px,color:#1a1a2e
 ```
 
 ---
