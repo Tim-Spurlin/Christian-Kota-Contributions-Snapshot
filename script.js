@@ -98,34 +98,21 @@
     window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => null));
   }
 
-  // Timeline accordion functionality
-  const timelineHeaders = document.querySelectorAll('.timeline-header');
-  timelineHeaders.forEach((header) => {
-    header.addEventListener('click', () => {
-      const expanded = header.getAttribute('aria-expanded') === 'true';
-      const contentId = header.getAttribute('aria-controls');
-      const content = document.getElementById(contentId);
-      
-      if (!content) return;
-      
-      // Toggle expanded state
-      header.setAttribute('aria-expanded', String(!expanded));
-      
-      if (expanded) {
-        // Collapse
-        content.hidden = true;
-      } else {
-        // Expand
-        content.hidden = false;
-      }
-    });
+  // Tab switching functionality
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const tabContents = document.querySelectorAll('.tab-content');
 
-    // Keyboard support for accessibility
-    header.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        header.click();
-      }
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetTab = btn.dataset.tab;
+      
+      // Remove active class from all buttons and contents
+      tabBtns.forEach(b => b.classList.remove('active'));
+      tabContents.forEach(c => c.classList.remove('active'));
+      
+      // Add active class to clicked button and corresponding content
+      btn.classList.add('active');
+      document.getElementById(targetTab)?.classList.add('active');
     });
   });
 })();
