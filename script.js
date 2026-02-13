@@ -99,20 +99,40 @@
   }
 
   // Tab switching functionality
-  const tabBtns = document.querySelectorAll('.tab-btn');
-  const tabContents = document.querySelectorAll('.tab-content');
+  const tabBtns = [...document.querySelectorAll('.tab-btn')];
+  const tabContents = [...document.querySelectorAll('.tab-content')];
+  const tabLinks = [...document.querySelectorAll('[data-open-tab]')];
 
-  tabBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const targetTab = btn.dataset.tab;
-      
-      // Remove active class from all buttons and contents
-      tabBtns.forEach(b => b.classList.remove('active'));
-      tabContents.forEach(c => c.classList.remove('active'));
-      
-      // Add active class to clicked button and corresponding content
-      btn.classList.add('active');
-      document.getElementById(targetTab)?.classList.add('active');
+  function activateTab(tabId) {
+    const targetButton = tabBtns.find((btn) => btn.dataset.tab === tabId);
+    const targetContent = document.getElementById(tabId);
+    if (!targetButton || !targetContent) return;
+
+    tabBtns.forEach((btn) => {
+      const active = btn === targetButton;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-selected', String(active));
+    });
+
+    tabContents.forEach((content) => {
+      content.classList.toggle('active', content === targetContent);
+    });
+  }
+
+  tabBtns.forEach((btn) => {
+    btn.addEventListener('click', () => activateTab(btn.dataset.tab));
+  });
+
+  tabLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      const targetTab = link.getAttribute('data-open-tab');
+      if (targetTab) activateTab(targetTab);
     });
   });
+
+  if (window.location.hash === '#side-story') {
+    activateTab('sidestory');
+    const lifeStory = document.getElementById('life-story');
+    if (lifeStory) lifeStory.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth' });
+  }
 })();
