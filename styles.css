@@ -804,6 +804,14 @@ p { color: var(--muted); }
   font-weight: 600;
 }
 
+.legacy-grid {
+  margin-bottom: 1rem;
+}
+
+.legacy-video {
+  margin-top: 1rem;
+}
+
 .content-block-spacing {
   margin-top: 2rem;
 }
