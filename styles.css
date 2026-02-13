@@ -161,7 +161,7 @@ textarea:focus-visible {
   position: absolute;
   border-radius: 50%;
   filter: blur(80px);
-  opacity: 0.4;
+  opacity: 0.2;
   will-change: transform;
 }
 
@@ -195,7 +195,7 @@ body::before {
   background: radial-gradient(circle, rgba(93,56,166,0.45) 0%, transparent 70%);
   border-radius: 50%;
   filter: blur(90px);
-  opacity: 0.35;
+  opacity: 0.18;
   z-index: var(--z-background);
   animation: floatSphere3 18s ease-in-out infinite;
   pointer-events: none;
@@ -206,7 +206,7 @@ body::before {
     background: linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 50%, #130e2d 100%);
   }
   50% {
-    background: linear-gradient(135deg, #0a0618 0%, var(--bg-3) 50%, var(--bg-2) 100%);
+    background: linear-gradient(135deg, #0e0a21 0%, var(--purple-mid) 50%, var(--purple-dark) 100%);
   }
 }
 
