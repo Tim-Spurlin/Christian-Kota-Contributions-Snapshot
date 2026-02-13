@@ -1,0 +1,17 @@
+{
+  "name": "Christian Kota Contributions",
+  "short_name": "CK Portfolio",
+  "description": "Dark gradient portfolio for GitHub Pages",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0e0a21",
+  "theme_color": "#1b1038",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
