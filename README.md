@@ -545,19 +545,22 @@ Skills      /  ★  \    Impact
 
 ---
 
-## 🌟 Testimonials & Impact Stories
+## 🌟 Impact & Recognition
 
-> *"Timothy taught me Python in 6 weeks. I went from retail worker to junior developer. He changed my family's future."*  
-> — Former Student, Tech Bootcamp Graduate
+**Education Impact:**
+- 🎓 Taught 1,000+ students coding and hardware skills through free online courses
+- 💼 Helped students transition from non-tech careers to software development roles
+- 🌐 Created accessible learning content on Lemon8, YouTube, and community platforms
 
-> *"His music helped me process trauma I didn't even know I had. 'Beautiful Things' became my therapy."*  
-> — Christian Kota Fan
+**Musical Reach:**
+- 🎵 10+ releases across multiple streaming platforms reaching international audiences
+- 💚 Songs addressing mental health, inner child healing, and emotional wellness
+- 🎭 Multi-genre versatility (Indie Pop, R&B, Dark Pop, Country) showcasing artistic range
 
-> *"We needed someone who could both code the system AND wire the hardware. Timothy was the only person who could do both."*  
-> — Aviation Engineering Manager
-
-> *"His Clean Air petition speech combined scientific data with human empathy. He makes you care AND think."*  
-> — Environmental Advocacy Colleague
+**Professional Recognition:**
+- ⚡ Aviation software engineering experience in high-reliability systems
+- 🔧 Unique combination of software development and trade skills (welding, electrical)
+- 🌍 Active civic engagement in environmental and health advocacy campaigns
 
 ---
 
@@ -604,11 +607,15 @@ For full academic references, see [index.md](./index.md) - comprehensive researc
 
 ### 2026 Objectives
 
-- [ ] **Complete PhD Dissertation** - Advancing IoT healthcare systems research
-- [ ] **Release Album** - 12-track collection exploring inner child themes
-- [ ] **Teach 5,000 Students** - Expanding free tech education reach
-- [ ] **Open Source Healthcare** - Contributing to medical device software
-- [ ] **Community Makerspace** - Building physical space for trades education
+**Academic:** Complete PhD Dissertation - Advancing IoT healthcare systems research
+
+**Music:** Release Album - 12-track collection exploring inner child themes
+
+**Education:** Teach 5,000 Students - Expanding free tech education reach
+
+**Technology:** Open Source Healthcare - Contributing to medical device software
+
+**Community:** Community Makerspace - Building physical space for trades education
 
 ### Vision for 2030
 
