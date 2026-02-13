@@ -137,7 +137,7 @@ This "Full-Brain Integration" allows him to practice a unique form of "Retrospec
 
 ### 5.1 Democratizing Technology: The Teacher
 
-Spurlin's most direct contribution to the community is his work as a technological educator. Utilizing platforms like Lemon8 and YouTube, he distributes high-value knowledge for free.[1]
+Spurlin's most direct contribution to the community is his work as a technological educator. Utilizing platforms like YouTube, he distributes high-value knowledge for free.[1]
 
 **The Curriculum**: He teaches "Effortless PC Upgrades" (hardware maintenance) and "Introduction to Python" (software development).
 
@@ -147,9 +147,9 @@ Spurlin's most direct contribution to the community is his work as a technologic
 
 Spurlin is not just a passive observer of society; he is an active civic participant. His name appears on critical petitions regarding public safety and environmental health.
 
-**The Causes**: He has advocated against the use of Agent Orange/GMOs[16] and supported the Clean Air Action Plan.[22]
+**The Causes**: He has advocated against the use of Agent Orange/GMOs[16] and supported environmental initiatives.
 
-**The Scientific Basis**: As a scientist, his signature carries weight. He understands the biochemistry of toxicity and the data behind pollution. His advocacy is an extension of his "Heart Monitoring" philosophy—he wants to create an environment where human biology can thrive, free from external toxins. This demonstrates a holistic view of health: it is not enough to monitor the heart (the device); one must also clean the air the heart relies on (the policy).
+**The Scientific Basis**: As a scientist, his signature carries weight. He understands the biochemistry of toxicity and the data behind pollution. His advocacy is an extension of his "Heart Monitoring" philosophy—he wants to create an environment where human biology can thrive, free from external toxins. This demonstrates a holistic view of health: it is not enough to monitor the heart (the device); one must also create healthy environments (the policy).
 
 ### 5.3 Building Community Through Art
 
@@ -185,52 +185,40 @@ The research conclusively suggests that Spurlin's greatest achievement is the in
 
 ## Works Cited
 
-1. Transform Your Mind: Reprogram Your Biological Computer for Love, accessed February 12, 2026, [https://www.lemon8-app.com/@rickthefactor/7417945451267228166?region=us](https://www.lemon8-app.com/@rickthefactor/7417945451267228166?region=us)
+1. [Dark Pop] Christian Kota - Lose Control : r/soundcloud - Reddit, accessed February 12, 2026, [https://www.reddit.com/r/soundcloud/comments/1d9jm3p/dark_pop_christian_kota_lose_control/](https://www.reddit.com/r/soundcloud/comments/1d9jm3p/dark_pop_christian_kota_lose_control/)
 
-2. Christian Kota | Chartmetric, accessed February 12, 2026, [https://app.chartmetric.com/artist/10113279](https://app.chartmetric.com/artist/10113279)
+2. Moonlight (cover by Christian Kota) : r/IndieMusicFeedback - Reddit, accessed February 12, 2026, [https://www.reddit.com/r/IndieMusicFeedback/comments/1d854gb/moonlight_cover_by_christian_kota/](https://www.reddit.com/r/IndieMusicFeedback/comments/1d854gb/moonlight_cover_by_christian_kota/)
 
-3. [Dark Pop] Christian Kota - Lose Control : r/soundcloud - Reddit, accessed February 12, 2026, [https://www.reddit.com/r/soundcloud/comments/1d9jm3p/dark_pop_christian_kota_lose_control/](https://www.reddit.com/r/soundcloud/comments/1d9jm3p/dark_pop_christian_kota_lose_control/)
+3. Childhood Witnessing of Domestic Violence and Its Impact on Character Development Across Time and Adulthood Relationships, accessed February 12, 2026, [https://aura.antioch.edu/cgi/viewcontent.cgi?article=1592&context=etds](https://aura.antioch.edu/cgi/viewcontent.cgi?article=1592&context=etds)
 
-4. Experience Mooney3: Music Available on All Streaming Platforms - Lemon8, accessed February 12, 2026, [https://www.lemon8-app.com/@ilovemooney3/7459806033993630250?region=us](https://www.lemon8-app.com/@ilovemooney3/7459806033993630250?region=us)
+4. Pride, Shame, and Group Identification - PMC - NIH, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC4845538/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4845538/)
 
-5. Creating a Magical Escape: My Journey with the Wonder Library ..., accessed February 12, 2026, [https://www.lemon8-app.com/@yun13729fn9/7477533004986958378?region=us](https://www.lemon8-app.com/@yun13729fn9/7477533004986958378?region=us)
+5. Introjection as a Defense Mechanism - Simply Psychology, accessed February 12, 2026, [https://www.simplypsychology.org/introjection-defense-mechanism.html](https://www.simplypsychology.org/introjection-defense-mechanism.html)
 
-6. Moonlight (cover by Christian Kota) : r/IndieMusicFeedback - Reddit, accessed February 12, 2026, [https://www.reddit.com/r/IndieMusicFeedback/comments/1d854gb/moonlight_cover_by_christian_kota/](https://www.reddit.com/r/IndieMusicFeedback/comments/1d854gb/moonlight_cover_by_christian_kota/)
+6. Reparenting Your Inner Child - The School of Life, accessed February 12, 2026, [https://www.theschooloflife.com/article/reparenting-your-inner-child/](https://www.theschooloflife.com/article/reparenting-your-inner-child/)
 
-7. Childhood Witnessing of Domestic Violence and Its Impact on Character Development Across Time and Adulthood Relationships, accessed February 12, 2026, [https://aura.antioch.edu/cgi/viewcontent.cgi?article=1592&context=etds](https://aura.antioch.edu/cgi/viewcontent.cgi?article=1592&context=etds)
+7. Adverse Childhood Adaptations: Superpowers and Kryptonite | Psychology Today, accessed February 12, 2026, [https://www.psychologytoday.com/us/blog/making-the-whole-beautiful/202404/adverse-childhood-adaptations-superpowers-and-kryptonite](https://www.psychologytoday.com/us/blog/making-the-whole-beautiful/202404/adverse-childhood-adaptations-superpowers-and-kryptonite)
 
-8. Pride, Shame, and Group Identification - PMC - NIH, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC4845538/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4845538/)
+8. A systematic review of stress-adapted skills and hidden talents in individuals who faced early adversity | Development and Psychopathology - Cambridge University Press & Assessment, accessed February 12, 2026, [https://www.cambridge.org/core/journals/development-and-psychopathology/article/systematic-review-of-stressadapted-skills-and-hidden-talents-in-individuals-who-faced-early-adversity/FF72824DD0FDC13DB49BE39CFFBAD12D](https://www.cambridge.org/core/journals/development-and-psychopathology/article/systematic-review-of-stressadapted-skills-and-hidden-talents-in-individuals-who-faced-early-adversity/FF72824DD0FDC13DB49BE39CFFBAD12D)
 
-9. Introjection as a Defense Mechanism - Simply Psychology, accessed February 12, 2026, [https://www.simplypsychology.org/introjection-defense-mechanism.html](https://www.simplypsychology.org/introjection-defense-mechanism.html)
+9. Elevated empathy in adults following childhood trauma - PMC - NIH, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC6169872/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6169872/)
 
-10. Reparenting Your Inner Child - The School of Life, accessed February 12, 2026, [https://www.theschooloflife.com/article/reparenting-your-inner-child/](https://www.theschooloflife.com/article/reparenting-your-inner-child/)
+10. The relationship between childhood trauma and post-traumatic growth among college students: The role of acceptance and positive reappraisal - Frontiers, accessed February 12, 2026, [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.921362/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.921362/full)
 
-11. Adverse Childhood Adaptations: Superpowers and Kryptonite | Psychology Today, accessed February 12, 2026, [https://www.psychologytoday.com/us/blog/making-the-whole-beautiful/202404/adverse-childhood-adaptations-superpowers-and-kryptonite](https://www.psychologytoday.com/us/blog/making-the-whole-beautiful/202404/adverse-childhood-adaptations-superpowers-and-kryptonite)
+11. Turning pain into strength: prosocial behaviours in coping with trauma - PMC - NIH, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC10997362/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10997362/)
 
-12. A systematic review of stress-adapted skills and hidden talents in individuals who faced early adversity | Development and Psychopathology - Cambridge University Press & Assessment, accessed February 12, 2026, [https://www.cambridge.org/core/journals/development-and-psychopathology/article/systematic-review-of-stressadapted-skills-and-hidden-talents-in-individuals-who-faced-early-adversity/FF72824DD0FDC13DB49BE39CFFBAD12D](https://www.cambridge.org/core/journals/development-and-psychopathology/article/systematic-review-of-stressadapted-skills-and-hidden-talents-in-individuals-who-faced-early-adversity/FF72824DD0FDC13DB49BE39CFFBAD12D)
+12. Food Democracy Now! PO Box 5 Clear Lake, IA 50428 dave@fooddemocracynow.org - Regulations.gov, accessed February 12, 2026, [https://downloads.regulations.gov/APHIS-2013-0042-9946/attachment_1.pdf](https://downloads.regulations.gov/APHIS-2013-0042-9946/attachment_1.pdf)
 
-13. Elevated empathy in adults following childhood trauma - PMC - NIH, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC6169872/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6169872/)
+13. Rethinking empathy development in childhood and adolescence: a call for global, culturally adaptive strategies - Frontiers, accessed February 12, 2026, [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1575249/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1575249/full)
 
-14. The relationship between childhood trauma and post-traumatic growth among college students: The role of acceptance and positive reappraisal - Frontiers, accessed February 12, 2026, [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.921362/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.921362/full)
+14. Empathy in Teens: Unraveling the Adolescent Brain's Emotions - Psychology Today, accessed February 12, 2026, [https://www.psychologytoday.com/us/blog/promoting-empathy-with-your-teen/202411/empathy-in-teens-unraveling-the-adolescent-brains](https://www.psychologytoday.com/us/blog/promoting-empathy-with-your-teen/202411/empathy-in-teens-unraveling-the-adolescent-brains)
 
-15. Turning pain into strength: prosocial behaviours in coping with trauma - PMC - NIH, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC10997362/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10997362/)
+15. The Neurodevelopment of Empathy in Humans - PMC, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC3021497/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3021497/)
 
-16. Food Democracy Now! PO Box 5 Clear Lake, IA 50428 dave@fooddemocracynow.org - Regulations.gov, accessed February 12, 2026, [https://downloads.regulations.gov/APHIS-2013-0042-9946/attachment_1.pdf](https://downloads.regulations.gov/APHIS-2013-0042-9946/attachment_1.pdf)
+16. The Cognitive Antecedents of Empathic Responding - Sign in, accessed February 12, 2026, [https://pure.coventry.ac.uk/ws/portalfiles/portal/41639386/Cuff2015_PhD.pdf](https://pure.coventry.ac.uk/ws/portalfiles/portal/41639386/Cuff2015_PhD.pdf)
 
-17. Rethinking empathy development in childhood and adolescence: a call for global, culturally adaptive strategies - Frontiers, accessed February 12, 2026, [https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1575249/full](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1575249/full)
+17. Self-Reflection: Beyond Conventional Fiction Film Engagement - Kent Academic Repository, accessed February 12, 2026, [https://kar.kent.ac.uk/id/document/47855](https://kar.kent.ac.uk/id/document/47855)
 
-18. Empathy in Teens: Unraveling the Adolescent Brain's Emotions - Psychology Today, accessed February 12, 2026, [https://www.psychologytoday.com/us/blog/promoting-empathy-with-your-teen/202411/empathy-in-teens-unraveling-the-adolescent-brains](https://www.psychologytoday.com/us/blog/promoting-empathy-with-your-teen/202411/empathy-in-teens-unraveling-the-adolescent-brains)
+18. A Psychological Perspective on Vicarious Embarrassment and Shame in the Context of Cringe Humor - MDPI, accessed February 12, 2026, [https://www.mdpi.com/2076-0787/10/4/110](https://www.mdpi.com/2076-0787/10/4/110)
 
-19. The Neurodevelopment of Empathy in Humans - PMC, accessed February 12, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC3021497/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3021497/)
-
-20. The Cognitive Antecedents of Empathic Responding - Sign in, accessed February 12, 2026, [https://pure.coventry.ac.uk/ws/portalfiles/portal/41639386/Cuff2015_PhD.pdf](https://pure.coventry.ac.uk/ws/portalfiles/portal/41639386/Cuff2015_PhD.pdf)
-
-21. Self-Reflection: Beyond Conventional Fiction Film Engagement - Kent Academic Repository, accessed February 12, 2026, [https://kar.kent.ac.uk/id/document/47855](https://kar.kent.ac.uk/id/document/47855)
-
-22. Draft Final Clean Air Action Plan Update Public Comments, accessed February 12, 2026, [https://cleanairactionplan.org/wp-content/uploads/2020/03/ab0f7848a0aa8c10a454649d81a94965.pdf](https://cleanairactionplan.org/wp-content/uploads/2020/03/ab0f7848a0aa8c10a454649d81a94965.pdf)
-
-23. Draft Final Clean Air Action Plan Update Public Comments, accessed February 12, 2026, [https://cleanairactionplan.org/wp-content/uploads/2020/03/Clean-Air-Action-Plan-2017-Update-Combined-Comments-2.pdf](https://cleanairactionplan.org/wp-content/uploads/2020/03/Clean-Air-Action-Plan-2017-Update-Combined-Comments-2.pdf)
-
-24. A Psychological Perspective on Vicarious Embarrassment and Shame in the Context of Cringe Humor - MDPI, accessed February 12, 2026, [https://www.mdpi.com/2076-0787/10/4/110](https://www.mdpi.com/2076-0787/10/4/110)
-
-25. The distinct challenges faced by children with a parent in prison for sexual offences, accessed February 12, 2026, [https://childrenheardandseen.co.uk/wp-content/uploads/2022/12/Invisible-Harms-and-Hierarchies-of-Shame.pdf](https://childrenheardandseen.co.uk/wp-content/uploads/2022/12/Invisible-Harms-and-Hierarchies-of-Shame.pdf)
+19. The distinct challenges faced by children with a parent in prison for sexual offences, accessed February 12, 2026, [https://childrenheardandseen.co.uk/wp-content/uploads/2022/12/Invisible-Harms-and-Hierarchies-of-Shame.pdf](https://childrenheardandseen.co.uk/wp-content/uploads/2022/12/Invisible-Harms-and-Hierarchies-of-Shame.pdf)

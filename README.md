@@ -5,9 +5,8 @@
 ### *🎨 Renaissance Polymath | 💻 Computer Scientist | 🎵 Musician | 🔧 Craftsman | 🌍 Community Leader*
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live_Site-blueviolet?style=for-the-badge&logo=github&logoColor=white)](https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/)
-[![Music](https://img.shields.io/badge/🎵_Music-Christian_Kota-ff69b4?style=for-the-badge&logo=spotify&logoColor=white)](https://app.chartmetric.com/artist/10113279)
-[![Natural Medicine](https://img.shields.io/badge/🌿_Natural_Medicine-Lifelong_Study-2ecc71?style=for-the-badge&logoColor=white)](https://www.lemon8-app.com/@rickthefactor/7417945451267228166)
-[![Pharmacology](https://img.shields.io/badge/💊_Pharmacology-Self_Taught-3498db?style=for-the-badge&logoColor=white)](https://www.lemon8-app.com/@rickthefactor/7417945451267228166)
+[![Natural Medicine](https://img.shields.io/badge/🌿_Natural_Medicine-Lifelong_Study-2ecc71?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
+[![Pharmacology](https://img.shields.io/badge/💊_Pharmacology-Self_Taught-3498db?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
 
 [![Computer Science](https://img.shields.io/badge/💻_Computer_Science-Advanced_Study-9b59b6?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
 [![Welding](https://img.shields.io/badge/🔥_Master_Welder-Certified-e74c3c?style=for-the-badge&logoColor=white)](https://github.com/Tim-Spurlin)
@@ -227,7 +226,6 @@ gantt
 
 ### 🎤 Discography & Streaming Presence
 
-[![Spotify](https://img.shields.io/badge/Spotify-Listen_Now-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://app.chartmetric.com/artist/10113279)
 [![SoundCloud](https://img.shields.io/badge/SoundCloud-Stream-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](https://soundcloud.com/christian-kota)
 [![YouTube](https://img.shields.io/badge/YouTube-Watch-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@christiankota)
 
@@ -342,7 +340,7 @@ graph TB
 
 **Mission:** Democratize access to high-value tech skills, bypassing expensive degrees
 
-**Platforms:** Lemon8, YouTube, GitHub, Community Workshops
+**Platforms:** YouTube, GitHub, Community Workshops
 
 **Curriculum Highlights:**
 - 🖥️ **"Effortless" PC Upgrades** - Hardware literacy for beginners
@@ -365,7 +363,6 @@ graph LR
 ### 🌱 Environmental & Health Advocacy
 
 **Active Campaigns:**
-- ✅ **Clean Air Action Plan** - Supporting pollution reduction initiatives
 - ✅ **Anti-GMO/Agent Orange** - Protecting public health from toxins
 - ✅ **Sustainable Infrastructure** - Advocating for green technology
 
@@ -557,7 +554,7 @@ Skills      /  ★  \    Impact
 **Education Impact:**
 - 🎓 Taught 1,000+ students coding and hardware skills through free online courses
 - 💼 Helped students transition from non-tech careers to software development roles
-- 🌐 Created accessible learning content on Lemon8, YouTube, and community platforms
+- 🌐 Created accessible learning content on YouTube and community platforms
 
 **Musical Reach:**
 - 🎵 10+ releases across multiple streaming platforms reaching international audiences
@@ -584,8 +581,6 @@ Skills      /  ★  \    Impact
 
 ### Creative Platforms
 
-[![Music](https://img.shields.io/badge/Christian_Kota-Listen-ff69b4?style=for-the-badge&logo=spotify)](https://app.chartmetric.com/artist/10113279)
-[![Lemon8](https://img.shields.io/badge/Lemon8-Follow-FFB6C1?style=for-the-badge&logo=lemon)](https://www.lemon8-app.com/@rickthefactor)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube)](https://youtube.com/@christiankota)
 
 ### Support the Mission
@@ -596,18 +591,6 @@ Skills      /  ★  \    Impact
 </div>
 
 ---
-
-## 📚✨ Research & References 🔬📖
-
-The comprehensive analysis in this portfolio is supported by:
-
-- [Lemon8 Profile - Transform Your Mind](https://www.lemon8-app.com/@rickthefactor/7417945451267228166)
-- [Chartmetric Artist Page](https://app.chartmetric.com/artist/10113279)
-- [Post-Traumatic Growth Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC6169872/)
-- [Hidden Talents from Adversity Study](https://www.cambridge.org/core/journals/development-and-psychopathology)
-- [Clean Air Action Plan Advocacy](https://cleanairactionplan.org/)
-
-For full academic references, see [index.md](./index.md) - comprehensive research analysis
 
 ---
 
