@@ -12,11 +12,11 @@ The analysis is structured to dissect the distinct yet interconnected domains of
 
 ## Part I: The Technologist and Scientist
 
-### 1.1 The Theoretical Foundations: Computer Science and the Academic Pursuit
+### 1.1 The Theoretical Foundations: Computer Science and Self-Directed Learning
 
-At the intellectual bedrock of Spurlin's contributions lies a profound engagement with Computer Science (CS). This is not merely a vocational skill set for Spurlin but a rigorous academic discipline that shapes his worldview. His journey into the upper echelons of academia began with a pivot toward a Ph.D. in Computer Science in the spring of 2020.[1] This decision marks a critical inflection point: the transition from a practitioner who uses tools to a theorist who designs them.
+At the intellectual bedrock of Spurlin's contributions lies a profound engagement with Computer Science (CS). This is not merely a vocational skill set for Spurlin but a rigorous self-directed discipline that shapes his worldview. His journey into advanced independent study began with a pivot toward intensive Computer Science research in the spring of 2020.[1] This decision marks a critical inflection point: the transition from a practitioner who uses tools to a theorist who designs them.
 
-The pursuit of a Ph.D. in this field implies a mastery of algorithms, complexity theory, and systems architecture. It suggests a mind trained to deconstruct problems into their most atomic units—a skill that, as we will see, Spurlin applies to music and welding alike. The timing of this pursuit—Spring 2020—is also significant. As the world entered a period of unprecedented digital reliance due to the global pandemic, Spurlin chose to deepen his capability to build and understand the digital infrastructure that sustains modern civilization.
+Self-directed study in this field implies a mastery of algorithms, complexity theory, and systems architecture. It suggests a mind trained to deconstruct problems into their most atomic units—a skill that, as we will see, Spurlin applies to music, welding, natural medicine, and pharmacology alike. The timing of this pursuit—Spring 2020—is also significant. As the world entered a period of unprecedented digital reliance due to the global pandemic, Spurlin chose to deepen his capability to build and understand the digital infrastructure that sustains modern civilization, while also studying natural health sciences.
 
 His academic rigor is further evidenced by his engagement with Data Science. Spurlin is proficient in the "Iron Triad" of modern programming: Python, JavaScript, and Java.[1]
 
@@ -26,7 +26,7 @@ His academic rigor is further evidenced by his engagement with Data Science. Spu
 
 ### 1.2 The Aviation Catalyst: Engineering in High-Stakes Environments
 
-Before his doctoral pursuit, Spurlin honed his engineering mindset in one of the most demanding sectors of the global economy: aviation. Serving as a software engineering intern at an aviation company[1], Spurlin was exposed to the culture of "High-Reliability Organizations" (HROs).
+Before his advanced independent studies, Spurlin honed his engineering mindset in one of the most demanding sectors of the global economy: aviation. Serving as a software engineering intern at an aviation company[1], Spurlin was exposed to the culture of "High-Reliability Organizations" (HROs).
 
 In aviation software, a bug is not an inconvenience; it is a potential catastrophe. This environment instills a specific set of cognitive habits:
 
@@ -34,7 +34,7 @@ In aviation software, a bug is not an inconvenience; it is a potential catastrop
 - **Redundancy and Safety**: Systems must be designed to fail safely.
 - **Rigorous Testing**: Every assumption must be verified against reality.
 
-Spurlin explicitly notes that this internship "revealed the potential benefits of further education," motivating his graduate studies.[1] This link is crucial. It shows that his academic ambition is rooted in practical necessity. He saw the complexity of the real world (aviation) and realized he needed deeper theoretical tools (Ph.D.) to master it. This feedback loop—between the messy reality of the hangar and the clean logic of the classroom—is the engine of his scientific achievement.
+Spurlin explicitly notes that this internship "revealed the potential benefits of further education," motivating his self-directed studies.[1] This link is crucial. It shows that his learning ambition is rooted in practical necessity. He saw the complexity of the real world (aviation) and realized he needed deeper theoretical tools (advanced independent study) to master it. This feedback loop—between the messy reality of the hangar and the clean logic of self-directed research—is the engine of his scientific achievement.
 
 ### 1.3 The Hardware-Software Synthesis: The Heart Monitoring Project
 
@@ -70,7 +70,7 @@ Welding is the art of permanent fusion. It requires a steady hand, an understand
 Spurlin's industrial skills are a potent vehicle for his philanthropy. While a software engineer can donate a website, a welder/electrician can donate a home. In the context of his community contributions, these skills allow him to address the most basic physiological needs of safety and shelter.
 
 - **Infrastructure Repair**: Snippets allude to his general helpfulness; in a practical sense, an electrician is often the most valuable person in a neighborhood during a crisis.
-- **Teaching the Trades**: Just as he democratizes coding knowledge, Spurlin's public persona encourages respect for the trades. By being a "PhD Welder," he dismantles the classist hierarchy that separates "intellectual" from "manual" labor. He models a life where one can read Plato and repair a circuit breaker in the same afternoon.
+- **Teaching the Trades**: Just as he democratizes coding knowledge, Spurlin's public persona encourages respect for the trades. By being a "Lifelong Learner & Welder," he dismantles the classist hierarchy that separates "intellectual" from "manual" labor. He models a life where one can read Plato and repair a circuit breaker in the same afternoon.
 
 ---
 
@@ -172,7 +172,7 @@ The table below summarizes the breadth of his contributions, highlighting the sy
 
 | Domain | Key Skills | Notable Achievements | Community Impact |
 |--------|------------|---------------------|------------------|
-| **Technology** | Python, Java, Data Science, AI | PhD Student, Aviation Software Intern, Heart Monitor Project | Democratizing code literacy; Health-tech innovation; Safety-critical engineering. |
+| **Technology** | Python, Java, Data Science, AI | Self-Taught Scholar, Aviation Software Intern, Heart Monitor Project | Democratizing code literacy; Health-tech innovation; Safety-critical engineering; Integrating natural medicine with technology. |
 | **Music** | Vocals, Production, Songwriting | "Beautiful Things," "Let It Ride," Multi-platform streaming presence | Emotional healing; "Inner Child" validation; Community building; Cultural expression. |
 | **Trades** | Welding, Electrical | Hardware prototyping, Physical infrastructure | Bridging the digital-physical divide; Practical problem solving; Infrastructure resilience. |
 | **Civic Life** | Advocacy, Mentorship | Clean Air Petitions, Anti-GMO Advocacy, Tech Education | Public health defense; Environmental stewardship; Economic empowerment. |
