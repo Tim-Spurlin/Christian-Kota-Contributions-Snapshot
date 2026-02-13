@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Smart drone assistant concept</title><desc id="d">Spherical safety cage drone with multiple propellers and cameras.</desc>
+<defs><radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop stop-color="#3146a2"/><stop offset="1" stop-color="#120d2f"/></radialGradient></defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="600" cy="335" r="210" fill="none" stroke="#b6c8ff" stroke-width="14"/>
+<circle cx="600" cy="335" r="170" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.2)"/>
+<g fill="#7de0ff">
+<circle cx="520" cy="260" r="18"/><circle cx="680" cy="260" r="18"/>
+<circle cx="520" cy="410" r="18"/><circle cx="680" cy="410" r="18"/>
+<circle cx="600" cy="220" r="16"/><circle cx="600" cy="450" r="16"/>
+<circle cx="455" cy="335" r="15"/><circle cx="745" cy="335" r="15"/>
+</g>
+<g fill="none" stroke="#ff8ad7" stroke-width="8">
+<circle cx="520" cy="300" r="36"/><circle cx="680" cy="300" r="36"/>
+<circle cx="520" cy="370" r="36"/><circle cx="680" cy="370" r="36"/>
+<circle cx="560" cy="230" r="30"/><circle cx="640" cy="230" r="30"/>
+<circle cx="560" cy="440" r="30"/><circle cx="640" cy="440" r="30"/>
+</g>
+<text x="170" y="120" fill="#eaf0ff" font-family="Segoe UI, Arial" font-size="46">Smart Drone Assistant • AR Ready • Multilingual</text>
+</svg>

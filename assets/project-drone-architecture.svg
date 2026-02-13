@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Smart drone technical architecture</title><desc id="d">Diagram connecting Pi brain, AI modules, sensors, and safety loops.</desc>
+<rect width="1200" height="675" fill="#120d2f"/>
+<g fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.25)">
+<rect x="470" y="70" width="260" height="90" rx="16"/><rect x="100" y="240" width="260" height="90" rx="16"/>
+<rect x="470" y="240" width="260" height="90" rx="16"/><rect x="840" y="240" width="260" height="90" rx="16"/>
+<rect x="100" y="430" width="260" height="90" rx="16"/><rect x="470" y="430" width="260" height="90" rx="16"/><rect x="840" y="430" width="260" height="90" rx="16"/>
+</g>
+<g stroke="#7da0ff" stroke-width="4" fill="none"><path d="M600 160v70M230 330v90M970 330v90M600 330v90M360 285h110M730 285h110M360 475h110M730 475h110"/></g>
+<g fill="#e7edff" font-family="Segoe UI, Arial" font-size="30" text-anchor="middle">
+<text x="600" y="125">Pi Brain Core</text><text x="230" y="295">Camera Fusion</text><text x="600" y="295">AI Planning</text><text x="970" y="295">Multilingual NLP</text><text x="230" y="485">Obstacle Detection</text><text x="600" y="485">Drone Math + Control</text><text x="970" y="485">Safety & Failsafe</text>
+</g>
+</svg>
