@@ -363,6 +363,11 @@ h1 { font-size: clamp(2rem, 4vw, 3.6rem); margin:.2rem 0 1rem; }
 .hero-card { padding: 1rem; overflow:auto; }
 pre { margin:0; color:#d1d5ff; }
 .hero-cta { display:flex; gap:.8rem; margin-top:1rem; flex-wrap:wrap; }
+
+.side-story-cta {
+  justify-content: center;
+}
+
 .btn { text-decoration:none; padding:.65rem 1rem; border-radius: 999px; font-weight: 600; }
 .btn.primary { background: linear-gradient(90deg, #9333ea, var(--blue)); color:#fff; }
 .btn.ghost { border:1px solid var(--border); color:#fff; }
