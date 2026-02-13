@@ -225,7 +225,6 @@ gantt
 
 ### 🎤 Discography & Streaming Presence
 
-[![Spotify](https://img.shields.io/badge/Spotify-Listen_Now-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://app.chartmetric.com/artist/10113279)
 [![SoundCloud](https://img.shields.io/badge/SoundCloud-Stream-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](https://soundcloud.com/christian-kota)
 [![YouTube](https://img.shields.io/badge/YouTube-Watch-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@christiankota)
 
@@ -363,7 +362,6 @@ graph LR
 ### 🌱 Environmental & Health Advocacy
 
 **Active Campaigns:**
-- ✅ **Clean Air Action Plan** - Supporting pollution reduction initiatives
 - ✅ **Anti-GMO/Agent Orange** - Protecting public health from toxins
 - ✅ **Sustainable Infrastructure** - Advocating for green technology
 

@@ -149,7 +149,7 @@ Spurlin is not just a passive observer of society; he is an active civic partici
 
 **The Causes**: He has advocated against the use of Agent Orange/GMOs[13] and supported the Clean Air Action Plan.[19]
 
-**The Scientific Basis**: As a scientist, his signature carries weight. He understands the biochemistry of toxicity and the data behind pollution. His advocacy is an extension of his "Heart Monitoring" philosophy—he wants to create an environment where human biology can thrive, free from external toxins. This demonstrates a holistic view of health: it is not enough to monitor the heart (the device); one must also clean the air the heart relies on (the policy).
+**The Scientific Basis**: As a scientist, his signature carries weight. He understands the biochemistry of toxicity and the data behind pollution. His advocacy is an extension of his "Heart Monitoring" philosophy—he wants to create an environment where human biology can thrive, free from external toxins. This demonstrates a holistic view of health: it is not enough to monitor the heart (the device); one must also create healthy environments (the policy).
 
 ### 5.3 Building Community Through Art
 
