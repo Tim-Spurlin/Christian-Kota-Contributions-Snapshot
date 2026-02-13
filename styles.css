@@ -66,7 +66,6 @@
   
   /* Z-index layers */
   --z-background: -2;
-  --z-blossoms: -1;
   --z-content: 1;
   --z-nav: 20;
   --z-modal: 100;
@@ -201,24 +200,6 @@ body::before {
   animation: floatSphere3 18s ease-in-out infinite;
   pointer-events: none;
 }
-/* ===== Cherry Blossom Container ===== */
-.cherry-blossom-container {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: var(--z-blossoms);
-}
-
-.cherry-blossom {
-  position: absolute;
-  width: var(--size, 16px);
-  height: var(--size, 16px);
-  opacity: 0.7;
-  transform: translate3d(0, -20px, 0) rotate(0deg);
-  will-change: transform, opacity;
-  animation: blossomFall var(--duration, 14s) linear forwards;
-}
 /* ===== Keyframe Animations ===== */
 @keyframes gradientShift {
   0%, 100% {
@@ -259,13 +240,6 @@ body::before {
   }
   50% {
     transform: translate(-50%, -50%);
-  }
-}
-
-@keyframes blossomFall {
-  to {
-    transform: translate3d(var(--drift, 20px), 110vh, 0) rotate(540deg);
-    opacity: 0;
   }
 }
 
@@ -817,11 +791,6 @@ p { color: var(--muted); }
     animation: none;
   }
 
-  .cherry-blossom {
-    animation: none;
-    opacity: 0;
-    display: none;
-  }
 
   .reveal {
     opacity: 1;

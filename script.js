@@ -1,38 +1,5 @@
 (() => {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const blossomContainer = document.querySelector('.cherry-blossom-container');
-
-  function spawnBlossom() {
-    if (!blossomContainer || reducedMotion) return;
-    const flower = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    const size = Math.floor(Math.random() * 14) + 10; // 10-23px
-    flower.setAttribute('viewBox', '0 0 24 24');
-    flower.classList.add('cherry-blossom');
-    flower.style.setProperty('--size', `${size}px`);
-    flower.style.setProperty('--duration', `${10 + Math.random() * 8}s`);
-    flower.style.setProperty('--drift', `${-40 + Math.random() * 80}px`);
-    flower.style.left = `${Math.random() * 100}%`;
-    flower.style.top = '-28px';
-    flower.style.filter = `blur(${Math.random() > 0.75 ? 0.7 : 0}px)`;
-    flower.innerHTML = `
-      <g fill="${['#ffd2e4','#ffbfd6','#fcb6cb'][Math.floor(Math.random()*3)]}">
-        <ellipse cx="12" cy="5" rx="3" ry="5" />
-        <ellipse cx="18" cy="10" rx="3" ry="5" transform="rotate(72 18 10)" />
-        <ellipse cx="16" cy="18" rx="3" ry="5" transform="rotate(144 16 18)" />
-        <ellipse cx="8" cy="18" rx="3" ry="5" transform="rotate(216 8 18)" />
-        <ellipse cx="6" cy="10" rx="3" ry="5" transform="rotate(288 6 10)" />
-      </g>
-      <circle cx="12" cy="12" r="2" fill="#f5c558" />`;
-
-    blossomContainer.appendChild(flower);
-    flower.addEventListener('animationend', () => flower.remove(), { once: true });
-  }
-
-  if (!reducedMotion) {
-    for (let i = 0; i < 18; i++) setTimeout(spawnBlossom, i * 260);
-    setInterval(spawnBlossom, 550);
-  }
-
   const sections = [...document.querySelectorAll('main section')];
   const navLinks = [...document.querySelectorAll('.nav-link')];
   const io = new IntersectionObserver((entries) => {
