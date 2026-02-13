@@ -1,15 +1,28 @@
-# Christian-Kota-Contributions-Snapshot
+# Christian Kota Contributions — GitHub Pages Site
 
-The Polymathic Convergence: A Comprehensive Analysis of Timothy Christian Spurlin's Contributions to Science, Industry, Art, and Community Wellness
+Premium static portfolio designed for GitHub Pages subpath deployments.
 
-## About
+## Files
 
-This repository hosts a comprehensive analysis examining the multi-dimensional achievements of Timothy Christian Spurlin (known artistically as Christian Kota), spanning his contributions to technology, industry, music, philosophy, and community service.
+- `index.html`
+- `styles.css`
+- `script.js`
+- `404.html`
+- `manifest.json`
+- `sw.js`
+- `assets/favicon.svg`
+- `assets/og-image.svg`
 
-## View the Analysis
+## Deploy on GitHub Pages
 
-The full analysis is available as a GitHub Page. Once GitHub Pages is enabled for this repository, it will be accessible at:
+1. Push this repo to GitHub.
+2. Open **Settings → Pages**.
+3. Source: **Deploy from a branch**.
+4. Branch: `main` and folder `/ (root)`.
+5. Save and wait for deployment.
 
-`https://tim-spurlin.github.io/Christian-Kota-Contributions-Snapshot/`
+## Notes
 
-Alternatively, you can view the [index.md](index.md) file directly in this repository.
+- Uses **relative paths** (`./...`) so it works on `https://USERNAME.github.io/REPO/`.
+- Blossom particles are intentionally small to preserve readability.
+- Includes reduced-motion support and keyboard-visible focus states.
