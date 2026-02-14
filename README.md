@@ -63,7 +63,7 @@ The GitHub Pages site now includes a dedicated **Projects hub** and a full **Sma
 ## 🎭✨ The Complete Human: A Multi-Dimensional Journey 🌈
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'background':'#0f1220', 'primaryColor':'#2b2f55', 'primaryTextColor':'#f5f7ff', 'primaryBorderColor':'#7a86ff', 'lineColor':'#9aa4ff', 'secondaryColor':'#243b53', 'tertiaryColor':'#3f2a56', 'clusterBkg':'#1a1f38', 'clusterBorder':'#7a86ff', 'fontSize':'16px'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'background':'#ffffff', 'primaryColor':'#f3e8ff', 'primaryTextColor':'#1f1147', 'primaryBorderColor':'#7a4cff', 'lineColor':'#5f52ff', 'secondaryColor':'#dbeafe', 'tertiaryColor':'#ede9fe', 'clusterBkg':'#f5f3ff', 'clusterBorder':'#7a4cff', 'fontSize':'16px'}}}%%
 mindmap
   root((Timothy<br/>Christian<br/>Spurlin))
     🔬 Scientist
