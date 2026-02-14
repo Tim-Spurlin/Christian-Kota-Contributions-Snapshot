@@ -179,6 +179,67 @@
     });
   });
 
+  // Story timeline chapters + accordion behavior
+  const chapterChips = [...document.querySelectorAll('.chapter-chip')];
+  const timelineItems = [...document.querySelectorAll('.timeline-item')];
+  const timelineHeaders = [...document.querySelectorAll('.timeline-header')];
+
+  const setTimelineItemOpen = (item, open) => {
+    const header = item.querySelector('.timeline-header');
+    const content = item.querySelector('.timeline-content');
+    if (!header || !content) return;
+
+    item.classList.toggle('active', open);
+    header.setAttribute('aria-expanded', String(open));
+    content.hidden = !open;
+  };
+
+  const closeAllTimelineItems = () => {
+    timelineItems.forEach((item) => setTimelineItemOpen(item, false));
+  };
+
+  const openFirstVisibleTimelineItem = () => {
+    const firstVisible = timelineItems.find((item) => !item.hidden);
+    if (firstVisible) setTimelineItemOpen(firstVisible, true);
+  };
+
+  const filterTimelineByChapter = (chapter) => {
+    chapterChips.forEach((chip) => {
+      const active = chip.dataset.chapter === chapter;
+      chip.classList.toggle('active', active);
+      chip.setAttribute('aria-pressed', String(active));
+    });
+
+    closeAllTimelineItems();
+
+    timelineItems.forEach((item) => {
+      const show = chapter === 'all' || item.dataset.chapter === chapter;
+      item.hidden = !show;
+    });
+
+    openFirstVisibleTimelineItem();
+  };
+
+  chapterChips.forEach((chip) => {
+    chip.setAttribute('aria-pressed', String(chip.classList.contains('active')));
+    chip.addEventListener('click', () => filterTimelineByChapter(chip.dataset.chapter || 'all'));
+  });
+
+  timelineHeaders.forEach((header) => {
+    header.addEventListener('click', () => {
+      const item = header.closest('.timeline-item');
+      if (!item || item.hidden) return;
+
+      const currentlyOpen = header.getAttribute('aria-expanded') === 'true';
+      closeAllTimelineItems();
+      if (!currentlyOpen) setTimelineItemOpen(item, true);
+    });
+  });
+
+  if (timelineItems.length > 0) {
+    filterTimelineByChapter('all');
+  }
+
 
 
   // AR TelePrompt tab groups
